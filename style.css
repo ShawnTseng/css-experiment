@@ -1,0 +1,23 @@
+a:link {
+    color: hotpink;
+    text-decoration: none;
+    background-color: yellow;
+}
+
+a:visited {
+    color: green;
+    text-decoration: none;
+    background-color: cyan;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+    background-color: lightgreen;
+}
+
+a:active {
+    color: blue;
+    text-decoration: underline;
+    background-color: hotpink;
+}
