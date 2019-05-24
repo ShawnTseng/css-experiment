@@ -1,0 +1,37 @@
+ul.type1 {
+    list-style-type: circle;
+}
+
+ul.type2 {
+    list-style-type: square;
+}
+
+ol.type3 {
+    list-style-type: upper-roman;
+}
+
+ol.type4 {
+    list-style-type: lower-alpha;
+}
+
+ul.type5 {
+    list-style-image: url('sqpurple.gif');
+}
+
+ul.type6 {
+    list-style-position: outside;
+}
+
+ul.type7 {
+    list-style-position: inside;
+}
+
+ul.type8 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.type9 {
+    list-style: square inside url('sqpurple.gif');
+}
