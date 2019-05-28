@@ -1,0 +1,19 @@
+.horizontal-display {
+    display: inline;
+}
+
+.block-text {
+    display: block;
+}
+
+a {
+    display: block;
+}
+
+.display-none {
+    display: none;
+}
+
+.visibility-hidden {
+    visibility: hidden;
+}
