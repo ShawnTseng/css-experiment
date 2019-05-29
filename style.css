@@ -1,19 +1,11 @@
-.horizontal-display {
-    display: inline;
+div.div1 {
+    /* margin: auto; */
+    width: 1000px;
+    border: 1px solid red;
 }
 
-.block-text {
-    display: block;
-}
-
-a {
-    display: block;
-}
-
-.display-none {
-    display: none;
-}
-
-.visibility-hidden {
-    visibility: hidden;
+div.div2 {
+    /* margin: auto; */
+    max-width: 1000px;
+    border: 1px solid red;
 }
