@@ -1,0 +1,40 @@
+.container {
+    height: 2000px;
+}
+
+.static {
+    border: 1px solid orange;
+    position: static;
+}
+
+.relative {
+    position: relative;
+    left: 20px;
+    border: 1px solid pink;
+    height: 100px;
+}
+
+.fixed {
+    position: fixed;
+    bottom: 4px;
+    right: 4px;
+    border: 1px solid blue;
+}
+
+.absolute {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.sticky {
+    position: sticky;
+    top: 20;
+}
+
+img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
