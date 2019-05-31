@@ -1,0 +1,17 @@
+.block {
+    width: 200px;
+    height: 50px;
+    border: 1px solid brown;
+}
+
+.hidden {
+    overflow: hidden;
+}
+
+.scroll {
+    overflow: scroll;
+}
+
+.auto {
+    overflow: auto;
+}
