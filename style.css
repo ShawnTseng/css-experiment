@@ -1,17 +1,67 @@
-.block {
-    width: 200px;
-    height: 50px;
-    border: 1px solid brown;
+.my-image {
+    float: right;
 }
 
-.hidden {
-    overflow: hidden;
+.my-image2 {
+    float: left;
 }
 
-.scroll {
-    overflow: scroll;
+.my-image3 {
+    float: none;
 }
 
-.auto {
+.block-1 {
+    float: left;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+}
+
+.block-2 {
+    border: 1px solid black;
+}
+
+.block-3 {
+    float: left;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+}
+
+.block-4 {
+    border: 1px solid black;
+    clear: left;
+}
+
+.clearfix {
     overflow: auto;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.my-container-1 {
+    border: 1px solid black;
+}
+
+.my-image-4 {
+    float: left;
+}
+
+.my-container-2 {
+    border: 1px solid black;
+}
+
+.my-image-5 {
+    float: left;
+}
+
+.box {
+    box-sizing: border-box;
+    float: left;
+    width: 33%;
+    padding: 50px;
 }
