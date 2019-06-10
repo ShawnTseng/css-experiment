@@ -1,0 +1,15 @@
+.block1 p {
+    background-color: blanchedalmond;
+}
+
+.block1>p {
+    color: red;
+}
+
+div+p {
+    background-color: pink;
+}
+
+div~p {
+    color: blueviolet;
+}
