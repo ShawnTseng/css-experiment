@@ -1,0 +1,20 @@
+.my-paragraph::first-line {
+    color: blue;
+}
+
+.my-paragraph::first-letter {
+    font-size: 200%;
+    color: red;
+}
+
+.my-paragraph::before {
+    content: 'This is created by Shawn:';
+}
+
+.my-paragraph::after {
+    content: 'This is END of the hole paragraph';
+}
+
+.my-paragraph::selection {
+    background-color: gold;
+}
