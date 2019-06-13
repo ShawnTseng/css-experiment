@@ -1,0 +1,55 @@
+.image-1 {
+    height: 100px;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+.image-1:hover {
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.green-block {
+    background-color: green;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.opacity-10 {
+    opacity: 0.1;
+    filter: alpha(opacity=10);
+}
+
+.opacity-30 {
+    opacity: 0.3;
+    filter: alpha(opacity=30);
+}
+
+.opacity-60 {
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+}
+
+.green-block-a {
+    background-color: rgba(76, 175, 80, 1);
+    text-align: center;
+    padding: 40px 0;
+}
+
+.green-block-b {
+    background-color: rgba(76, 175, 80, 0.6);
+    text-align: center;
+    padding: 40px 0;
+}
+
+.green-block-c {
+    background-color: rgba(76, 175, 80, 0.3);
+    text-align: center;
+    padding: 40px 0;
+}
+
+.green-block-d {
+    background-color: rgba(76, 175, 80, 0.1);
+    text-align: center;
+    padding: 40px 0;
+}
