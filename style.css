@@ -1,20 +1,44 @@
-.my-paragraph::first-line {
-    color: blue;
+body {
+    background-color: black;
 }
 
-.my-paragraph::first-letter {
-    font-size: 200%;
-    color: red;
+.egg1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: white;
+    box-shadow: 0 0 30px 10px gold;
+    border-radius: 50% 50% 50% 50%;
+    animation: hearted-egg 0.3s cubic-bezier(0.68, -0.75, 0.265, 1.75) infinite;
 }
 
-.my-paragraph::before {
-    content: 'This is created by Shawn:';
+.egg2 {
+    position: absolute;
+    top: 0;
+    left: 75px;
+    background-color: white;
+    box-shadow: 0 0 30px 10px gold;
+    border-radius: 50% 50% 50% 50%;
+    animation: hearted-egg 0.3s cubic-bezier(0.68, -0.75, 0.265, 1.75) infinite;
 }
 
-.my-paragraph::after {
-    content: 'This is END of the hole paragraph';
+.egg3 {
+    position: absolute;
+    top: 0;
+    left: 150px;
+    background-color: white;
+    box-shadow: 0 0 30px 10px gold;
+    border-radius: 50% 50% 50% 50%;
+    animation: hearted-egg 0.3s cubic-bezier(0.68, -0.75, 0.265, 1.75) infinite;
 }
 
-.my-paragraph::selection {
-    background-color: gold;
+@keyframes hearted-egg {
+    from {
+        width: 150px;
+        height: 180px;
+    }
+    to {
+        width: 165px;
+        height: 198px;
+    }
 }
