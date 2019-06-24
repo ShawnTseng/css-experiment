@@ -1,0 +1,17 @@
+body {
+    counter-reset: variable1;
+}
+
+h1 {
+    counter-reset: variable2;
+}
+
+h1::before {
+    counter-increment: variable1;
+    content: "Section " counter(variable1) ". ";
+}
+
+h2::before {
+    counter-increment: variable2;
+    content: counter(variable1) "." counter(variable2) " ";
+}
