@@ -1,50 +1,22 @@
+#headline1 {
+  text-shadow: 2px 2px 5px orange;
+}
+#headline2 {
+  text-shadow: 2px 2px 4px black;
+  color: white;
+}
+#headline3 {
+  text-shadow: 2px 2px 4px black, -2px -2px 4px indigo, 4px 4px 4px deepskyblue;
+  color: white;
+}
+#headline4 {
+  text-shadow: 2px 0 pink, 0 2px pink, -2px 0 pink, 0 -2px pink;
+  color: yellow;
+}
 #block1 {
-  width: 100%;
-  height: 200px;
-  background-image: linear-gradient(red, yellow);
-}
-#block2 {
-  width: 100%;
-  height: 200px;
-  background-image: linear-gradient(to right, red, yellow);
-}
-#block3 {
-  width: 100%;
-  height: 200px;
-  background-image: linear-gradient(to bottom right, red, yellow);
-}
-#block4 {
-  width: 100%;
-  height: 200px;
-  background-image: linear-gradient(55deg, red, yellow);
-}
-#block5 {
-  width: 100%;
-  height: 200px;
-  background-image: linear-gradient(red, orange, yellow, green, blue, indigo, violet);
-}
-#block6 {
-  width: 100%;
-  height: 200px;
-  background-image: linear-gradient(rgba(255, 215, 0, 0), rgba(255, 215, 0, 1));
-}
-#block7 {
-  width: 100%;
-  height: 200px;
-  background-image: repeating-linear-gradient(red 10%, gold 20%, green 30%);
-}
-#block8 {
-  width: 100%;
-  height: 200px;
-  background-image: radial-gradient(red, yellow, blue);
-}
-#block9 {
-  width: 100%;
-  height: 200px;
-  background-image: radial-gradient(circle, red, yellow, blue);
-}
-#block10 {
-  width: 100%;
-  height: 200px;
-  background-image: repeating-radial-gradient(circle, red, yellow 10%, blue 20%);
+  width: 300px;
+  height: 100px;
+  padding: 15px;
+  background-color: pink;
+  box-shadow: 10px 10px 5px gray;
 }
