@@ -1,0 +1,54 @@
+#container1 {
+  margin: 8px;
+  border: 1px solid black;
+  width: 200px;
+  overflow: hidden;
+  text-overflow: clip;
+}
+#container2 {
+  margin: 8px;
+  border: 1px solid black;
+  width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+#container3 {
+  margin: 8px;
+  border: 1px solid black;
+  width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#container3:hover {
+  overflow: visible;
+}
+#paragraph1 {
+  margin: 8px;
+  border: 1px solid black;
+  width: 200px;
+  word-wrap: break-word;
+}
+#paragraph2 {
+  margin: 8px;
+  border: 1px solid black;
+  width: 200px;
+}
+#paragraph3 {
+  margin: 8px;
+  border: 1px solid black;
+  width: 200px;
+  word-break: keep-all;
+}
+#paragraph4 {
+  margin: 8px;
+  border: 1px solid black;
+  width: 200px;
+  word-break: break-all;
+}
+#paragraph5 {
+  margin: 8px;
+  border: 1px solid black;
+  width: 200px;
+  writing-mode: vertical-lr;
+}
