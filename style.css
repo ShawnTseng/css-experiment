@@ -1,8 +1,0 @@
-@font-face {
-  font-family: myFont;
-  src: url(myfontfrommingimperial.ttf);
-}
-
-.new-font-region {
-  font-family: myFont;
-}
